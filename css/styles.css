@@ -52,3 +52,51 @@ body {
   line-height: 24px;
   margin: 0;
 }
+
+.form-page {
+  padding: 60px 0;
+}
+
+.form {
+  border-radius: 40px;
+  background: #ecf4f8;
+  width: 1170px;
+  margin: auto;
+  padding: 60px 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form-title {
+  color: #1b1d1f;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+
+.form-field {
+  border-radius: 12px;
+  border: 1px solid #2b4c5c;
+  width: 304px;
+  padding: 12px 24px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form-submit-btn {
+  border-radius: 12px;
+  background: #ff6b0a;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  border: none;
+  width: 300px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
