@@ -8,7 +8,8 @@ formContainer.addEventListener("submit", function (event) {
 });
 
 formSubmitBtn.addEventListener("click", function () {
-  const formData = new FormData(formContainer); //функція, яка збирає значення всіх полів форми, що знаходяться в контейнері форми
+  const formData = new FormData(formContainer);
+  //FormData - функція, яка збирає значення всіх полів форми, що знаходяться в контейнері форми
 
   console.log("Form data are preparing for sending");
 
