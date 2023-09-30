@@ -123,3 +123,27 @@
 .micromodal-slide .modal__overlay {
   will-change: transform;
 }
+
+@media (max-width: 800px) {
+  .modal__container {
+    width: 500px;
+  }
+
+  .splide__slide {
+    height: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .modal__container {
+    width: 350px;
+  }
+
+  .modal__title {
+    font-size: 18px;
+  }
+
+  .splide__slide {
+    height: 250px;
+  }
+}

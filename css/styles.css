@@ -135,3 +135,127 @@ body {
   width: 100%;
   border-radius: 40px;
 }
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 800px;
+  }
+
+  .form {
+    width: 800px;
+  }
+
+  .form-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .form-field {
+    margin: 0;
+  }
+
+  .form-submit-btn {
+    width: 304px;
+  }
+
+  .gallery-modal-btn {
+    width: calc(50% - (24px / 2));
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    width: 600px;
+  }
+
+  .goit-logo {
+    margin-bottom: 60px;
+  }
+
+  .my-city-container {
+    width: 400px;
+    padding: 30px;
+  }
+
+  .my-city-title {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+
+  .my-city-descr {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .form {
+    width: 600px;
+    padding: 30px 50px;
+  }
+
+  .form-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .gallery-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 450px) {
+  .goit-logo {
+    display: none;
+  }
+
+  .wrapper {
+    width: 350px;
+  }
+
+  .my-city-container {
+    width: 250px;
+    padding: 20px;
+  }
+
+  .my-city-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .my-city-descr {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .form {
+    width: 350px;
+    padding: 30px 50px;
+  }
+
+  .form-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .form-field {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  .form-submit-btn {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  .gallery-page{
+    padding-bottom: 30px;
+  }
+
+  .gallery-title {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+  }
+}
