@@ -21,11 +21,7 @@ body {
 
 .wrapper {
   width: 1170px;
-  margin: auto;
-}
-
-.goit-logo {
-  margin-bottom: 98px;
+  margin: 60px auto;
 }
 
 .my-city-container {
@@ -170,10 +166,6 @@ body {
     width: 600px;
   }
 
-  .goit-logo {
-    margin-bottom: 60px;
-  }
-
   .my-city-container {
     width: 400px;
     padding: 30px;
@@ -205,10 +197,6 @@ body {
 }
 
 @media (max-width: 450px) {
-  .goit-logo {
-    display: none;
-  }
-
   .wrapper {
     width: 350px;
   }
@@ -248,7 +236,7 @@ body {
     font-size: 12px;
   }
 
-  .gallery-page{
+  .gallery-page {
     padding-bottom: 30px;
   }
 
